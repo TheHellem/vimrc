@@ -2,13 +2,6 @@
 " Start Vim-Plug configuration
 call plug#begin('~/.vim/plugged')
 
-" List your plugins here
-Plug 'tpope/vim-sensible'         " Example plugin: sensible defaults for Vim
-Plug 'junegunn/fzf'               " Example plugin: fuzzy file finder
-Plug 'neovim/nvim-lspconfig'      " Example plugin: LSP configurations
-Plug 'preservim/nerdtree'         " Example plugin: file system explorer
-Plug 'airblade/vim-gitgutter'     " Example plugin: Git diff in the gutter
-
 "Temaet jeg kjører
 Plug 'NLKNguyen/papercolor-theme'   "Plugin fra https://github.com/NLKNguyen/papercolor-theme
 call plug#end()
